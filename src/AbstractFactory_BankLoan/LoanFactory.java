@@ -8,9 +8,9 @@ public class LoanFactory extends AbstractFactory {
 
     @Override
     public Loan getLoan(String loan) {
-        if(loan.equalsIgnoreCase("HomeLoan")) {
+        if(loan.equalsIgnoreCase("Home")) {
             return new HomeLoan();
-        }else if (loan.equalsIgnoreCase("BusinessLoan"))  {
+        }else if (loan.equalsIgnoreCase("Business"))  {
             return new BusinessLoan();
         }
         return null;
