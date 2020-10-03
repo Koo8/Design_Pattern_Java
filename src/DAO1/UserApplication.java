@@ -2,12 +2,16 @@ package DAO1;
 
 import java.util.Optional;
 
+
 /**
  * perform CRUD using Dao pattern
  * - interface Dao abstractly define all CRUD methods
  * - bean class User
  * - connect both with UserDao implementing DAO and take referrence of User
  * - main class to implement the persistence task
+ *
+ * The connection between DAO and JPA and Hibenate
+ * check https://www.baeldung.com/java-dao-pattern
  */
 
 public class UserApplication {
