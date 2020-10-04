@@ -2,9 +2,15 @@ package AbstractFactory_BankLoan;
 
 import java.io.BufferedReader;
 import java.io.IOException;
-import java.io.InputStream;
 import java.io.InputStreamReader;
-import java.util.AbstractList;
+
+/**
+ * Abstract Factory lets a class(FactoryCreator) returns a factory of classes (AbstractFactory members).
+ * So, this is the reason that Abstract Factory Pattern is one level higher
+ * than the Factory Pattern.
+ * This is used When the family of related objects has to be used together, to enforce the unity relationship
+ * The highest level class is the FactoryCreator.java
+ */
 
 public class CalculateEMIPayment {
     public static void main(String[] args) throws IOException {
